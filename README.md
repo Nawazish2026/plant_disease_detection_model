@@ -1,4 +1,4 @@
-# 🌱 AgriVision - AI-Powered Plant Disease Detection System
+#  Plant Disease Detection Model
 
 > An intelligent web-based platform leveraging deep learning to detect plant diseases with 96% accuracy, providing instant diagnosis and comprehensive treatment recommendations in multiple languages.
 
@@ -27,7 +27,7 @@
 
 ## 🎯 Overview
 
-AgriVision is a comprehensive plant disease detection system developed as a BTech 4th year minor project. The system addresses the critical challenge of timely disease identification in agriculture by providing farmers with instant, accurate diagnoses through an accessible web interface.
+It is a comprehensive plant disease detection system developed as a BTech 4th year minor project. The system addresses the critical challenge of timely disease identification in agriculture by providing farmers with instant, accurate diagnoses through an accessible web interface.
 
 ### Problem Statement
 
@@ -35,7 +35,7 @@ Agricultural diseases cause billions of dollars in crop losses annually, threate
 
 ### Solution
 
-AgriVision provides instant, accurate disease detection accessible through any device with a camera, enabling early intervention and reducing crop losses through timely treatment. The system supports multiple languages, making it accessible to farmers across different regions.
+It provides instant, accurate disease detection accessible through any device with a camera, enabling early intervention and reducing crop losses through timely treatment. The system supports multiple languages, making it accessible to farmers across different regions.
 
 ---
 
@@ -266,7 +266,7 @@ Apple, Blueberry, Cherry, Corn (Maize), Grape, Orange, Peach, Pepper (Bell), Pot
 
 ```bash
 git clone <repository-url>
-cd agrivision-plant-disease-detection
+cd plant-disease-detection
 ```
 
 ### Step 2: Backend Setup
@@ -656,4 +656,4 @@ For questions, issues, or feedback regarding this project:
 
 **Built with ❤️ for farmers and agriculture**
 
-*AgriVision - Empowering farmers with AI-driven plant disease detection*
+*plant disease detection Model
