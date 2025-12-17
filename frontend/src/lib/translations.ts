@@ -7,7 +7,7 @@ export const translations = {
             home: 'Home',
             detect: 'Detect Disease',
             chat: 'Chat',
-            team: 'Team',
+            team: 'About',
         },
 
         // Home page
@@ -189,7 +189,7 @@ export const translations = {
             home: 'होम',
             detect: 'रोग पहचानें',
             chat: 'चैट',
-            team: 'टीम',
+            team: 'बारे में',
         },
 
         // Home page
