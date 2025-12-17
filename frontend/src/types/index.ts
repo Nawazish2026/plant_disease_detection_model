@@ -30,6 +30,7 @@ export interface ChatRequest {
 export interface ChatResponse {
   response: string
   language: string
+  timestamp?: string
 }
 
 export interface PredictionRecord {

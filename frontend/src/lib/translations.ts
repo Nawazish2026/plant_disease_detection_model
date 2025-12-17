@@ -88,6 +88,20 @@ export const translations = {
         plants: 'Plant Species',
 
         // Predict page
+        predict: {
+            title: 'Plant Disease Detection',
+            subtitle: 'Upload an image or use your camera to detect plant diseases',
+            uploadTab: 'Upload Image',
+            cameraTab: 'Use Camera',
+            dragDrop: 'Drag and drop an image here, or click to select',
+            supports: 'Supports: JPG, PNG (Max 10MB)',
+            startCamera: 'Start Camera',
+            capture: 'Capture & Analyze',
+            analyzing: 'Analyzing...',
+            analyze: 'Analyze Image',
+            uploadAnother: 'Upload Another Image',
+            uploadToSee: 'Upload an image to see results',
+        },
         uploadImage: 'Upload Image',
         useCamera: 'Use Camera',
         dragDrop: 'Drag and drop an image here, or click to select',
@@ -227,6 +241,20 @@ export const translations = {
         plants: 'पौधों की प्रजातियां',
 
         // Predict page
+        predict: {
+            title: 'पौधे रोग पहचान',
+            subtitle: 'पौधों की बीमारियों का पता लगाने के लिए एक छवि अपलोड करें या अपना कैमरा उपयोग करें',
+            uploadTab: 'तस्वीर अपलोड करें',
+            cameraTab: 'कैमरा उपयोग करें',
+            dragDrop: 'यहां एक तस्वीर खींचें और छोड़ें, या चयन करने के लिए क्लिक करें',
+            supports: 'समर्थित: JPG, PNG (अधिकतम 10MB)',
+            startCamera: 'कैमरा शुरू करें',
+            capture: 'कैप्चर और विश्लेषण करें',
+            analyzing: 'विश्लेषण कर रहे हैं...',
+            analyze: 'तस्वीर का विश्लेषण करें',
+            uploadAnother: 'एक और तस्वीर अपलोड करें',
+            uploadToSee: 'परिणाम देखने के लिए एक तस्वीर अपलोड करें',
+        },
         uploadImage: 'तस्वीर अपलोड करें',
         useCamera: 'कैमरा उपयोग करें',
         dragDrop: 'यहां एक तस्वीर खींचें और छोड़ें, या चयन करने के लिए क्लिक करें',
