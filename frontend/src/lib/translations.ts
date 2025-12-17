@@ -144,6 +144,17 @@ export const translations = {
         send: 'Send',
         typing: 'AI is typing...',
 
+        // Team page
+        team: {
+            title: 'Meet Our Team',
+            subtitle: 'The talented individuals behind AgriVision',
+            responsibilities: 'Responsibilities',
+            about: 'About This Project',
+            aboutDesc: 'AgriVision is an AI-powered plant disease detection system developed as part of our final year project at IIIT Bhagalpur. Our mission is to help farmers identify and treat plant diseases early, leading to healthier crops and better yields.',
+            techStack: 'Tech Stack',
+            duration: 'Project Duration'
+        },
+
         // Errors
         error: 'Error',
         errorOccurred: 'An error occurred',
@@ -296,6 +307,17 @@ export const translations = {
         askQuestion: 'एक सवाल पूछें...',
         send: 'भेजें',
         typing: 'AI टाइप कर रहा है...',
+
+        // Team page
+        team: {
+            title: 'हमारी टीम से मिलें',
+            subtitle: 'AgriVision के पीछे प्रतिभाशाली व्यक्ति',
+            responsibilities: 'जिम्मेदारियां',
+            about: 'इस परियोजना के बारे में',
+            aboutDesc: 'AgriVision एक AI-संचालित पौधे रोग पहचान प्रणाली है जिसे IIIT भागलपुर में हमारी अंतिम वर्ष परियोजना के हिस्से के रूप में विकसित किया गया है। हमारा मिशन किसानों को पौधों की बीमारियों की शीघ्र पहचान और उपचार में मदद करना है, जिससे स्वस्थ फसलें और बेहतर उपज हो।',
+            techStack: 'तकनीकी स्टैक',
+            duration: 'परियोजना अवधि'
+        },
 
         // Errors
         error: 'त्रुटि',
