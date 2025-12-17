@@ -101,6 +101,20 @@ export const translations = {
             analyze: 'Analyze Image',
             uploadAnother: 'Upload Another Image',
             uploadToSee: 'Upload an image to see results',
+            result: {
+                healthy: 'Plant is Healthy!',
+                diseased: 'Disease Detected',
+                plant: 'Plant',
+                status: 'Status',
+                disease: 'Disease',
+                confidence: 'Confidence',
+                top5: 'Top 5 Predictions',
+                recommendations: 'Treatment Recommendations',
+                preventive: 'Preventive Measures',
+                fungicides: 'Recommended Fungicides',
+                precautions: 'Precautions',
+                organic: 'Organic Options'
+            }
         },
         uploadImage: 'Upload Image',
         useCamera: 'Use Camera',
@@ -236,6 +250,10 @@ export const translations = {
                 images: 'प्रशिक्षण छवियां'
             }
         },
+        welcomeTitle: 'AI-संचालित पौधे रोग पहचान',
+        welcomeSubtitle: 'शीघ्र पहचान, स्वस्थ फसलें, बेहतर उपज',
+        getStarted: 'शुरू करें',
+        learnMore: 'और जानें',
 
         // Features
         features: 'विशेषताएं',
@@ -265,6 +283,20 @@ export const translations = {
             analyze: 'तस्वीर का विश्लेषण करें',
             uploadAnother: 'एक और तस्वीर अपलोड करें',
             uploadToSee: 'परिणाम देखने के लिए एक तस्वीर अपलोड करें',
+            result: {
+                healthy: 'पौधा स्वस्थ है!',
+                diseased: 'रोग का पता चला',
+                plant: 'पौधा',
+                status: 'स्थिति',
+                disease: 'रोग',
+                confidence: 'विश्वास',
+                top5: 'शीर्ष 5 पूर्वानुमान',
+                recommendations: 'उपचार सिफारिशें',
+                preventive: 'निवारक उपाय',
+                fungicides: 'अनुशंसित फफूंदनाशक',
+                precautions: 'सावधानियां',
+                organic: 'जैविक विकल्प'
+            }
         },
         uploadImage: 'तस्वीर अपलोड करें',
         useCamera: 'कैमरा उपयोग करें',
