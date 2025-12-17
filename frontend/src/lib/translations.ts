@@ -11,6 +11,63 @@ export const translations = {
         },
 
         // Home page
+        home: {
+            title: 'AgriVision',
+            subtitle: 'AI-Powered Plant Disease Detection',
+            description: 'Early detection, healthier crops, better yields. Upload a photo of your plant and get instant disease diagnosis powered by advanced AI technology.',
+            startDetection: 'Start Detection',
+            liveDemo: 'Try Chat Assistant',
+            powerfulFeatures: 'Powerful Features',
+            howItWorks: 'How It Works',
+            readyToProtect: 'Ready to Protect Your Crops?',
+            getStartedFree: 'Get Started Free',
+            features: {
+                aiDetection: {
+                    title: 'AI-Powered Detection',
+                    desc: 'Advanced deep learning models trained on 70,000+ images for accurate disease identification'
+                },
+                chatbot: {
+                    title: 'Expert AI Assistant',
+                    desc: 'Get instant answers to your farming questions with our intelligent chatbot'
+                },
+                multilingual: {
+                    title: 'Multilingual Support',
+                    desc: 'Available in English and Hindi to help farmers across India'
+                },
+                treatment: {
+                    title: 'Treatment Recommendations',
+                    desc: 'Receive actionable treatment plans and prevention strategies'
+                },
+                explainable: {
+                    title: 'Explainable AI',
+                    desc: 'Understand why the AI made its diagnosis with clear explanations'
+                },
+                plants: {
+                    title: '12+ Plant Species',
+                    desc: 'Support for major crops including tomato, potato, corn, and more'
+                }
+            },
+            steps: {
+                upload: {
+                    title: 'Upload Image',
+                    desc: 'Take or upload a photo of the affected plant leaf'
+                },
+                analyze: {
+                    title: 'AI Analysis',
+                    desc: 'Our AI model analyzes the image in real-time'
+                },
+                results: {
+                    title: 'Get Results',
+                    desc: 'Receive diagnosis and treatment recommendations instantly'
+                }
+            },
+            stats: {
+                accuracy: 'Accuracy',
+                diseases: 'Diseases',
+                plants: 'Plants',
+                images: 'Training Images'
+            }
+        },
         welcomeTitle: 'AI-Powered Plant Disease Detection',
         welcomeSubtitle: 'Early detection, healthier crops, better yields',
         getStarted: 'Get Started',
@@ -95,16 +152,65 @@ export const translations = {
             chat: 'चैट',
             team: 'टीम',
         },
-        home: 'होम',
-        detectDisease: 'रोग पहचानें',
-        chatNav: 'चैट',
-        team: 'टीम',
 
         // Home page
-        welcomeTitle: 'AI-संचालित पौधे रोग पहचान',
-        welcomeSubtitle: 'शीघ्र पहचान, स्वस्थ फसलें, बेहतर उपज',
-        getStarted: 'शुरू करें',
-        learnMore: 'और जानें',
+        home: {
+            title: 'AgriVision',
+            subtitle: 'AI-संचालित पौधे रोग पहचान',
+            description: 'शीघ्र पहचान, स्वस्थ फसलें, बेहतर उपज। अपने पौधे की तस्वीर अपलोड करें और उन्नत AI तकनीक द्वारा संचालित तत्काल रोग निदान प्राप्त करें।',
+            startDetection: 'पहचान शुरू करें',
+            liveDemo: 'चैट सहायक आज़माएं',
+            powerfulFeatures: 'शक्तिशाली विशेषताएं',
+            howItWorks: 'यह कैसे काम करता है',
+            readyToProtect: 'अपनी फसलों की रक्षा के लिए तैयार हैं?',
+            getStartedFree: 'मुफ्त शुरू करें',
+            features: {
+                aiDetection: {
+                    title: 'AI-संचालित पहचान',
+                    desc: 'सटीक रोग पहचान के लिए 70,000+ छवियों पर प्रशिक्षित उन्नत डीप लर्निंग मॉडल'
+                },
+                chatbot: {
+                    title: 'विशेषज्ञ AI सहायक',
+                    desc: 'हमारे बुद्धिमान चैटबॉट के साथ अपने खेती के सवालों के तत्काल जवाब पाएं'
+                },
+                multilingual: {
+                    title: 'बहुभाषी समर्थन',
+                    desc: 'भारत भर के किसानों की मदद के लिए अंग्रेजी और हिंदी में उपलब्ध'
+                },
+                treatment: {
+                    title: 'उपचार सिफारिशें',
+                    desc: 'कार्रवाई योग्य उपचार योजनाएं और रोकथाम रणनीतियां प्राप्त करें'
+                },
+                explainable: {
+                    title: 'व्याख्यात्मक AI',
+                    desc: 'स्पष्ट स्पष्टीकरण के साथ समझें कि AI ने अपना निदान क्यों किया'
+                },
+                plants: {
+                    title: '12+ पौधों की प्रजातियां',
+                    desc: 'टमाटर, आलू, मक्का और अधिक सहित प्रमुख फसलों के लिए समर्थन'
+                }
+            },
+            steps: {
+                upload: {
+                    title: 'छवि अपलोड करें',
+                    desc: 'प्रभावित पौधे की पत्ती की तस्वीर लें या अपलोड करें'
+                },
+                analyze: {
+                    title: 'AI विश्लेषण',
+                    desc: 'हमारा AI मॉडल वास्तविक समय में छवि का विश्लेषण करता है'
+                },
+                results: {
+                    title: 'परिणाम प्राप्त करें',
+                    desc: 'तुरंत निदान और उपचार सिफारिशें प्राप्त करें'
+                }
+            },
+            stats: {
+                accuracy: 'सटीकता',
+                diseases: 'रोग',
+                plants: 'पौधे',
+                images: 'प्रशिक्षण छवियां'
+            }
+        },
 
         // Features
         features: 'विशेषताएं',
