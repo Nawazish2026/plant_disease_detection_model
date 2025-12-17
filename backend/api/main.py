@@ -26,7 +26,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Local Next.js dev server
         "http://localhost:3001",  # Local Next.js dev server (alt port)
-        "https://*.vercel.app",   # All Vercel deployments
+        "https://agri-vision-ai-powered-plant-diseas.vercel.app",  # Production Vercel deployment
     ],
     allow_credentials=True,
     allow_methods=["*"],

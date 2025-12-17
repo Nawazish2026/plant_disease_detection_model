@@ -9,55 +9,18 @@ export default function TeamPage() {
   const team = [
     {
       name: 'Aman Kumar Bind',
-      role: 'FullStack & ML Engineer',
+      role: 'AI/ML Engineer & Full Stack Developer',
       responsibilities: [
-        'Model training & optimization',
-        'ML pipeline setup',
-        'Model deployment',
-        'Documentation'
+        'Deep Learning Model Development & Training',
+        'Full Stack Web Application (Next.js & FastAPI)',
+        'ML Pipeline & Model Deployment',
+        'AI Integration (Perplexity API)',
+        'UI/UX Design & Development',
+        'Cloud Deployment & DevOps'
       ],
       github: 'https://github.com/amanbind898',
       linkedin: 'https://linkedin.com/in/amankumarbind',
       email: 'aman.2201086cs@iiitbh.ac.in'
-    },
-    {
-      name: 'Ankit',
-      role: 'Frontend Developer',
-      responsibilities: [
-        'FastAPI setup',
-        'API endpoints development',
-        'Model integration',
-        'Database setup'
-      ],
-      github: 'https://github.com/ankit',
-      linkedin: 'https://linkedin.com/in/ankit',
-      email: 'ankit@example.com'
-    },
-    {
-      name: 'Sahil Morwal',
-      role: 'Frontend Developer',
-      responsibilities: [
-        'Next.js setup',
-        'UI/UX design',
-        'Component development',
-        'Responsive design'
-      ],
-      github: 'https://github.com/sahil',
-      linkedin: 'https://linkedin.com/in/sahil',
-      email: 'sahil@example.com'
-    },
-    {
-      name: 'Nawazish hassan',
-      role: 'Full Stack Developer',
-      responsibilities: [
-        'Frontend-Backend integration',
-        'Perplexity API integration',
-        'Deployment',
-        'Testing'
-      ],
-      github: 'https://github.com/nawaz',
-      linkedin: 'https://linkedin.com/in/nawaz',
-      email: 'nawaz@example.com'
     }
   ]
 

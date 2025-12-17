@@ -160,11 +160,11 @@ export const translations = {
 
         // Team page
         team: {
-            title: 'Meet Our Team',
-            subtitle: 'The talented individuals behind AgriVision',
+            title: 'About the Developer',
+            subtitle: 'Personal AIML Project',
             responsibilities: 'Responsibilities',
             about: 'About This Project',
-            aboutDesc: 'AgriVision is an AI-powered plant disease detection system developed as part of our final year project at IIIT Bhagalpur. Our mission is to help farmers identify and treat plant diseases early, leading to healthier crops and better yields.',
+            aboutDesc: 'AgriVision is an AI-powered plant disease detection system developed by Aman Kumar Bind as a personal AIML project. This project demonstrates end-to-end machine learning development, from model training to full-stack web deployment, with the mission to help farmers identify and treat plant diseases early.',
             techStack: 'Tech Stack',
             duration: 'Project Duration'
         },
@@ -342,11 +342,11 @@ export const translations = {
 
         // Team page
         team: {
-            title: 'हमारी टीम से मिलें',
-            subtitle: 'AgriVision के पीछे प्रतिभाशाली व्यक्ति',
+            title: 'डेवलपर के बारे में',
+            subtitle: 'व्यक्तिगत AIML परियोजना',
             responsibilities: 'जिम्मेदारियां',
             about: 'इस परियोजना के बारे में',
-            aboutDesc: 'AgriVision एक AI-संचालित पौधे रोग पहचान प्रणाली है जिसे IIIT भागलपुर में हमारी अंतिम वर्ष परियोजना के हिस्से के रूप में विकसित किया गया है। हमारा मिशन किसानों को पौधों की बीमारियों की शीघ्र पहचान और उपचार में मदद करना है, जिससे स्वस्थ फसलें और बेहतर उपज हो।',
+            aboutDesc: 'AgriVision एक AI-संचालित पौधे रोग पहचान प्रणाली है जिसे अमन कुमार बिंद द्वारा एक व्यक्तिगत AIML परियोजना के रूप में विकसित किया गया है। यह परियोजना मॉडल प्रशिक्षण से लेकर पूर्ण-स्टैक वेब तैनाती तक, एंड-टू-एंड मशीन लर्निंग विकास को प्रदर्शित करती है, जिसका उद्देश्य किसानों को पौधों की बीमारियों की शीघ्र पहचान और उपचार में मदद करना है।',
             techStack: 'तकनीकी स्टैक',
             duration: 'परियोजना अवधि'
         },
