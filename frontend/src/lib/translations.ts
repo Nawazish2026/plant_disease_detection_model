@@ -3,10 +3,12 @@ export type Language = 'en' | 'hi';
 export const translations = {
     en: {
         // Navigation
-        home: 'Home',
-        detectDisease: 'Detect Disease',
-        chat: 'Chat',
-        team: 'Team',
+        nav: {
+            home: 'Home',
+            detect: 'Detect Disease',
+            chat: 'Chat',
+            team: 'Team',
+        },
 
         // Home page
         welcomeTitle: 'AI-Powered Plant Disease Detection',
@@ -47,6 +49,25 @@ export const translations = {
         precautions: 'Precautions',
 
         // Chat
+        chat: {
+            title: 'AI Assistant',
+            context: 'Context',
+            askAnything: 'Ask me anything about plant diseases and treatments!',
+            chatPage: {
+                title: 'AI Plant Disease Assistant',
+                subtitle: 'Get expert advice on plant diseases and farming',
+                welcome: 'Welcome to AgriVision AI Assistant!',
+                welcomeDesc: 'Ask me anything about plant diseases, farming techniques, and crop management. I\'m here to help you 24/7.',
+                features: [
+                    'Identify and diagnose plant diseases',
+                    'Get treatment recommendations',
+                    'Learn about preventive measures',
+                    'Understand farming best practices'
+                ]
+            },
+            quickQuestions: 'Quick Questions',
+            typeQuestion: 'Type your question here...'
+        },
         chatWithAI: 'Chat with AI Assistant',
         askQuestion: 'Ask a question...',
         send: 'Send',
@@ -68,9 +89,15 @@ export const translations = {
 
     hi: {
         // Navigation
+        nav: {
+            home: 'होम',
+            detect: 'रोग पहचानें',
+            chat: 'चैट',
+            team: 'टीम',
+        },
         home: 'होम',
         detectDisease: 'रोग पहचानें',
-        chat: 'चैट',
+        chatNav: 'चैट',
         team: 'टीम',
 
         // Home page
@@ -112,6 +139,25 @@ export const translations = {
         precautions: 'सावधानियां',
 
         // Chat
+        chat: {
+            title: 'AI सहायक',
+            context: 'संदर्भ',
+            askAnything: 'मुझसे पौधों की बीमारियों और उपचार के बारे में कुछ भी पूछें!',
+            chatPage: {
+                title: 'AI पौधे रोग सहायक',
+                subtitle: 'पौधों की बीमारियों और खेती पर विशेषज्ञ सलाह प्राप्त करें',
+                welcome: 'AgriVision AI सहायक में आपका स्वागत है!',
+                welcomeDesc: 'मुझसे पौधों की बीमारियों, खेती की तकनीकों और फसल प्रबंधन के बारे में कुछ भी पूछें। मैं 24/7 आपकी मदद के लिए यहां हूं।',
+                features: [
+                    'पौधों की बीमारियों की पहचान और निदान',
+                    'उपचार की सिफारिशें प्राप्त करें',
+                    'निवारक उपायों के बारे में जानें',
+                    'खेती के सर्वोत्तम अभ्यासों को समझें'
+                ]
+            },
+            quickQuestions: 'त्वरित प्रश्न',
+            typeQuestion: 'अपना प्रश्न यहां टाइप करें...'
+        },
         chatWithAI: 'AI सहायक के साथ चैट करें',
         askQuestion: 'एक सवाल पूछें...',
         send: 'भेजें',
