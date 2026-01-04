@@ -27,10 +27,10 @@ export default function RootLayout({
           <footer className="bg-gray-900 text-white py-8">
             <div className="container mx-auto px-4 text-center">
               <p className="text-gray-400">
-                © 2025 AgriVision | B.Tech Minor Project
+                © 2025 AgriVision | Personal AIML Project
               </p>
               <p className="text-sm text-gray-500 mt-2">
-                Team: Aman, Ankit, Sahil, Nawazish
+                Developed by <a href="https://github.com/amanbind898" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300">Aman Kumar Bind</a>
               </p>
             </div>
           </footer>
