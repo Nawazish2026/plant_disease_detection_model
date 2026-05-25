@@ -18,11 +18,11 @@ if __name__ == "__main__":
     print()
     
     # Verify API key is loaded
-    api_key = os.getenv("PERPLEXITY_API_KEY")
+    api_key = os.getenv("GROQ_API_KEY")
     if api_key:
-        print(f"✅ Perplexity API key loaded: {api_key[:10]}...")
+        print(f"✅ Groq API key loaded: {api_key[:10]}...")
     else:
-        print("⚠️  Warning: No Perplexity API key found!")
+        print("⚠️  Warning: No Groq API key found! Chat will use fallback responses.")
     print()
     
     uvicorn.run("api.main:app", host="0.0.0.0", port=8000, reload=True)

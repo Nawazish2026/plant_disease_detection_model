@@ -76,7 +76,7 @@ jspm_packages/
 next-env.d.ts
 
 # ===================================
-# Environment Variables
+# 🔒 SECRETS — NEVER COMMIT
 # ===================================
 .env
 .env.local
@@ -84,6 +84,10 @@ next-env.d.ts
 .env.test.local
 .env.production.local
 .env*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
 
 # ===================================
 # IDE / Editors
@@ -134,15 +138,12 @@ ml-training/data/*.zip
 ml-training/data/*.tar.gz
 ml-training/data/*.rar
 
-# Prediction history
-backend/data/prediction_history.json
+# Prediction history (old JSON-based)
+backend/data/
 backend/data/*.json
 
-# Models (uncomment if model is too large for git)
-# ml-training/models/*.h5
-# ml-training/models/*.pb
-# ml-training/models/*.pth
-# ml-training/models/*.onnx
+# Interrupted/temp models
+ml-training/models/interrupted_model_pytorch.pth
 
 # Training outputs
 ml-training/logs/
@@ -150,15 +151,30 @@ ml-training/checkpoints/
 ml-training/tensorboard/
 
 # ===================================
+# Database
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+prisma/dev.db
+frontend/prisma/dev.db
+prisma/migrations/
+
+# ===================================
+# Secrets / Keys
+# ===================================
+*.pem
+*.key
+*.cert
+secrets/
+.secrets/
+
+# ===================================
 # Logs
 # ===================================
 *.log
 logs/
 *.log.*
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
 # ===================================
 # Temporary Files
@@ -175,13 +191,6 @@ tmp/
 .tmp/
 
 # ===================================
-# Documentation
-# ===================================
-# Uncomment if you don't want to track generated docs
-# docs/_build/
-# site/
-
-# ===================================
 # Deployment
 # ===================================
 .vercel
@@ -190,32 +199,11 @@ tmp/
 .serverless/
 
 # ===================================
-# Database
-# ===================================
-*.db
-*.sqlite
-*.sqlite3
-
-# ===================================
-# Secrets / Keys
-# ===================================
-*.pem
-*.key
-*.cert
-secrets/
-.secrets/
-
-# ===================================
-# Package Manager Locks (optional)
-# ===================================
-# Uncomment if you want to ignore lock files
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
-# ===================================
 # Project Specific
 # ===================================
-# Add any project-specific files here
 confusion_matrix.png.backup
 *.backup
+package-lock.json
+
+# Gemini IDE
+.gemini/
