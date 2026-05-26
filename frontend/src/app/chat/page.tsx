@@ -3,23 +3,13 @@
 import { useState, useRef, useEffect } from 'react'
 import { MessageSquare, Send, Loader2, Leaf, CheckCircle, Sparkles, Bot } from 'lucide-react'
 import { chatWithAI } from '@/lib/api'
+import { formatMessage } from '@/lib/formatMessage'
 import { useLanguage } from '@/contexts/LanguageContext'
 import { motion, AnimatePresence } from 'framer-motion'
 
 interface Message {
   role: 'user' | 'assistant'
   content: string
-}
-
-const formatMessage = (text: string) => {
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-emerald-200">$1</strong>')
-    .replace(/^(\d+)\.\s+\*\*(.*?)\*\*/gm, '<div class="mt-3 mb-2"><strong class="font-bold text-emerald-200">$1. $2</strong></div>')
-    .replace(/^(\d+)\.\s+(.*?)$/gm, '<div class="mt-2"><span class="font-semibold text-emerald-300/80">$1.</span> $2</div>')
-    .replace(/^-\s+(.*?)$/gm, '<div class="ml-4 mt-1">• $1</div>')
-    .replace(/^###\s+(.*?)$/gm, '<h3 class="text-lg font-bold text-emerald-200 mt-4 mb-2">$1</h3>')
-    .replace(/\n\n/g, '<br/><br/>')
-    .replace(/\n/g, '<br/>')
 }
 
 export default function ChatPage() {
